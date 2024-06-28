@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Photo Slider</title>
+<link rel="stylesheet" href="regions.css">
+</head>
+<body>
+    <center>
+<div class="slider-container">
+    <button class="slider-button prev" onclick="prevSlide()">&#10094;</button>
+    <div class="slider">
+        <div class="slide">
+            <div class="photo-box">
+                <div class="photo-name">Photo Name 1</div>
+                <img src="photo1.jpg" alt="Description of the photo 1" class="photo">
+                <div class="photo-description">This is a short description of the photo 1.</div>
+                <button class="photo-button">Click Me</button>
+            </div>
+        </div>
+        <div class="slide">
+            <div class="photo-box">
+                <div class="photo-name">Photo Name 2</div>
+                <img src="photo2.jpg" alt="Description of the photo 2" class="photo">
+                <div class="photo-description">This is a short description of the photo 2.</div>
+                <button class="photo-button">Click Me</button>
+            </div>
+        </div>
+        <div class="slide">
+            <div class="photo-box">
+                <div class="photo-name">Photo Name 3</div>
+                <img src="photo3.jpg" alt="Description of the photo 3" class="photo">
+                <div class="photo-description">This is a short description of the photo 3.</div>
+                <button class="photo-button">Click Me</button>
+            </div>
+        </div>
+        <!-- Add more slides as needed -->
+    </div>
+    <button class="slider-button next" onclick="nextSlide()">&#10095;</button>
+</div>
+</center>
+<script src="js.js"></script>
+</body>
+</html>
